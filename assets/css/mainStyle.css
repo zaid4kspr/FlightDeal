@@ -1,0 +1,1118 @@
+/* general css */
+
+.body {
+    background-color: white;
+
+}
+.blue{
+    color: #4064bd;
+}
+
+
+.mainlogo {
+    width: 90px;
+}
+
+.minHeight {
+    min-height: 51vw;
+}
+
+.plansPageTitle{
+    
+        font-weight: 500;
+        font-size: 25px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.2;
+        letter-spacing: normal;
+        text-align: center;
+        color: #22252a;
+    
+}
+
+.pageTitle {
+    font-weight: 500;
+    font-size: 25px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.06;
+    letter-spacing: normal;
+    text-align: center;
+    color: #22252a;
+}
+
+.pageSubTitle {
+    font-weight: 500;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.06;
+    letter-spacing: normal;
+    text-align: center;
+    color: #22252a;
+}
+.pagesubsubtitle {
+    font-weight: 500;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.06;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+
+}
+
+.pageDesc {
+    font-weight: 500;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.76;
+    letter-spacing: normal;
+    text-align: center;
+    color: #7b7b7b;
+}
+
+::placeholder {
+    /* Most modern browsers support this now. */
+    color: #bebebe !important;
+    font-size: 14px !important;
+
+}
+
+.custom-file-control,
+.form-control,
+.is-focused .custom-file-control,
+.is-focused .form-control {
+    background-image: linear-gradient(0deg, #4064bd 2px, rgba(0, 150, 136, 0) 0), linear-gradient(0deg, rgba(0, 0, 0, .26) 1px, transparent 0);
+    padding-left: 21px;
+    padding-bottom: 17px;
+}
+
+.inputTitle {
+    color: #949494;
+    font-size: 14px;
+}
+
+
+
+.eyeImg {
+    position: absolute;
+    right: 0;
+    top: 8px;
+    cursor: pointer;
+}
+.thirdSectionLandingImage{
+    height: 100.7px;
+}
+
+.thirdSectionTitle{
+    font-size: 16px;
+    font-weight: 550;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #22252a;
+    margin: 20px 0;
+}
+.thirdSectionDesc{
+    font-size: 13px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #22252a;
+    margin: 20px 0;
+}
+
+.fourthSectionLandingImage{
+   
+   height: 70.7px;
+
+    
+}
+
+.footerBg {
+    background-color: #1c1c1c;
+
+}
+
+.footerItemTitle {
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.footerSubItems {
+    color: #919191;
+    font-size: 14px;
+}
+
+.copyRightFooter {
+    background-color: #010101 !important;
+    color: #919191;
+    font-size: 14px;
+}
+
+.landingImage {
+    width: 344px;
+    height: 360px;
+}
+.backgroundOf4thSection{
+    background-image: url(./../img/bg4thSec.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.disabledLayer {
+    opacity: 0.26;
+    z-index: 2;
+  
+}
+.expiredTEXT{
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.86;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    font-size: 25px;
+    position: absolute;
+    z-index: 5;
+    left: 88px;
+    opacity: 1;
+    top: 111px;
+
+
+}
+.dealPrice{
+ 
+    position: absolute;
+    top: 34px;
+    right: 0;
+    padding: 8px  4px 8px  22px ;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.16);
+    background-color: #4064bd;
+    border-top-left-radius: 25px;
+ 
+    border-bottom-left-radius: 25px;
+
+}
+
+.oldPrice{
+    color: white;
+    font-weight: 600;
+    text-decoration: line-through;
+    text-decoration-color: #f7674b;
+}
+
+.newPrice{
+    color: #f7674b;
+    font-weight: 600;
+text-align: right;
+}
+.dealImg{
+    height: 230px;
+    width: 100%;
+}
+.dealDate{
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.35;
+    letter-spacing: normal;
+    text-align: left;
+    color: #7b7b7b;
+}
+.dealDatePub{
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.35;
+    letter-spacing: normal;
+    text-align: left;
+    color: #22252a;
+    
+}
+.singleDealFirstRow{
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+}
+.borderRad-50p{
+    border-radius: 50%;
+}
+.CountiesCard{
+    border-radius: 15px;
+  background-color: #eaebec;
+  height: 150px;
+
+}
+
+.zIndexnegatif{
+    z-index: -2;
+}
+.moveToTheTop{
+    margin-top: -165px;
+}
+.userCommentCard{
+    border-radius: 30px;
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    height: 210px;
+}
+.reviewCard{
+    border-radius: 30px;
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+ 
+    height: 250px;
+}
+
+.userComment{
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.76;
+    letter-spacing: normal;
+    text-align: left;
+    color: #22252a;
+}
+.commentUserName{
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #22252a;
+}
+.commentDate{
+    font-size: 14px;
+    color: #aaaaaa;
+}
+
+.selectedCountry{
+    border-radius: 25px;
+    background-color: #eaebec;
+    padding: 3px 10px 3px 20px;
+    font-size: 13px;
+    font-weight: 550;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.76;
+    letter-spacing: normal;
+    text-align: left;
+    color: #212121;
+}
+.dealCard{
+    border-radius: 30px;
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2);
+  
+}
+.departureSettingsCard{
+    border-radius: 25px;
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+}
+/* it won't affect global checkbox i added roundCheckbox to make sure  */
+.checkbox .roundCheckbox .checkbox-decorator .check, label.checkbox-inline .checkbox-decorator .check {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    width: 1.0rem;
+    height: 1.0rem;
+    overflow: hidden;
+    border: 0.125rem solid rgba(0, 0, 0, 0.54);
+    border-radius: 50%;
+}
+
+/* it won't affect global checkbox i added roundCheckbox to make sure  */
+.checkbox .roundCheckbox .checkbox-decorator, label.checkbox-inline .checkbox-decorator {
+    position: absolute;
+    left: 0;
+    /* padding: .7em; */
+    margin: -.1em;
+    line-height: .1;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 100%;
+    padding-left: 15px;
+    padding-top: 3px;
+}
+
+.carousel-control-prev {
+    left: -100px;
+}
+.carousel-control-next {
+    right: -100px;
+    z-index: 2;
+}
+
+.plansCardTitle{
+    font-weight: 550;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #22252a;
+    font-size: 17px;
+} 
+.plansPrice{
+    
+    font-size: 23px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.8;
+    letter-spacing: normal;
+    text-align: left;
+    color: #22252a;
+}
+.plansDesc{
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.76;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4064bd;
+    font-size: 13px;
+}
+.plusPlansDesc{
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.76;
+    letter-spacing: normal;
+    text-align: center;
+    color: #22252a;
+    font-size: 13px;
+}
+.plansCard{
+    background-color: #eaebec;
+    border-radius: 30px;
+    width: 307px;
+    height: 272.6px;
+    box-shadow: none;
+}
+
+
+
+.leftSingleDealTextUnderCard{
+    width: 358px;
+}
+
+.plusPlansCard {
+    background-color: #eaebec;
+    border-radius: 30px;
+    width: 313px;
+    height: 358.6px;
+    box-shadow: none;
+}
+.paymentCard{
+  
+        background-color: #eaebec;
+        border-radius: 30px;
+        width: 313px;
+        height: 370.6px;
+        box-shadow: none;
+    
+}
+
+@media only screen and (min-width: 480px) {
+    .paymentCardRight{
+        background-color: transparent;
+        border-radius: 30px;
+        width:  400px;
+        height: 370.6px;
+        box-shadow: none;
+    }
+
+    .leftSingleDealCard{
+        width: 358px;
+        border-radius: 25px;
+        box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2);
+        background-color: #ffffff;
+    }
+    .rightSingleDealCard{
+        width: 306px;
+        border-radius: 25px;
+        background-color: #eaebec;
+    }
+    
+  
+}
+@media only screen and (max-width: 480px) {
+    .paymentCardRight{
+        background-color: transparent;
+        border-radius: 30px;
+        width:  313px;
+        height: 370.6px;
+        box-shadow: none;
+    }
+    .leftSingleDealCard{
+        width: 328px;
+        border-radius: 25px;
+        box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2);
+        background-color: #ffffff;
+    }
+    .rightSingleDealCard{
+        width: 328px;
+        border-radius: 25px;
+        background-color: #eaebec;
+    }
+  
+}
+
+
+.plusPlansLimitedCard{
+    background-color: transparent;
+    border-radius: 30px;
+    width: 313px;
+    height: 358.6px;
+    box-shadow: none;
+}
+.paymentCardTitle{
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #22252a;
+    font-size: 14px;
+}
+.planDescWidth{
+    width: 313px;
+}
+.payDescWidth {
+    width: 393px;
+}
+.plusPlanMouseIcon{
+    position: absolute;
+    bottom: 24px;
+    right: 22px;
+    height: 35px;
+}
+.timeMoneyIcons{
+    width: 22px;
+    height: 22px;
+}
+.payInput{
+    border-radius: 25px;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    border: 0;
+    height: 40px;
+    width: 100%;
+    padding-left: 25px;
+}
+.contactCard{
+    padding: 45px 15px 15px 15px;
+    border-radius: 30px;
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    width: 282px;
+    height: 368px;
+}
+.backGroundImg {
+    background-image: url('./assets/img/bg-trans.png');
+    background-size: cover;
+    top: 0;
+    right: -50px;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+}
+.contactImg {
+    height: 110px;
+    width: 110px
+}
+.contactText{
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.76;
+    letter-spacing: normal;
+    text-align: center;
+    color: #22252a;
+    font-size: 13px;
+
+}
+
+.contactMail{
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.65;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4064bd;
+    font-size: 13px;
+}
+.mapBg {
+    background-image: url('./../img/map_bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 630px;
+    width: 100%;
+}
+.carouselImages{
+    height: 80px;
+    width: 150px!important;
+    padding: 15px 0;
+}
+
+
+@media only screen and (min-width: 480px) {
+    .owl-carousel{
+        padding-left: 145px;
+        padding-right: 145px;
+     height: 84px;
+    
+    }
+  
+}
+
+
+.owl-carousel{
+   
+    height: 84px;
+   
+   }
+
+.owl-stage-outer{
+    height: 84px;
+
+}
+.owl-item{
+    width: 120px!important
+}
+
+.stepsImages {
+    height: 150px;
+    width: 150px;
+
+}
+.stepsImagesBig {
+  
+    width: 100%;
+
+}
+
+a {
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 769px) {
+
+    .backGroundImg2 {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 51vw;
+        width: 79vw;
+        z-index: -1;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .backGroundImg2 {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 51vw;
+        width: 79vw;
+        z-index: -1;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .backGroundImg2 {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100vw;
+        width: 95vw;
+        z-index: -1;
+    }
+}
+
+.userEmail {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.76;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333333;
+
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.dropDownBox {
+    margin-top: 17px !important;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.DropDownArrow {
+    height: 40px;
+    position: absolute;
+    top: -21px;
+    left: 4px;
+    width: 27px;
+}
+
+.airportNameLabelColor{
+    color: #212121!important;
+}
+
+.selectedRowDepartureSetting{
+    padding: 7px 1rem 1px 1.5rem;
+    background-color: #eaebec;
+}
+
+.unSelectedRowDepartureSetting{
+    padding: 7px 1rem 1px 1.5rem;
+    background-color: transparent;
+}
+.unSelectedRowDepartureSetting:hover{
+    padding: 7px 1rem 1px 1.5rem;
+    background-color: #eaebec;
+}
+/*icons*/
+.userProfile {
+    height: 30px;
+    width: 30px;
+}
+
+
+/* font size*/
+
+.privacyParagraph{
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.76;
+    letter-spacing: normal;
+    text-align: left;
+    color: #22252a;
+}
+
+.singleDealCardTitle{
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    
+    letter-spacing: normal;
+    text-align: left;
+    color: #7b7b7b;
+}
+.singleDealCardBlack{
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    
+    letter-spacing: normal;
+    text-align: left;
+   
+}
+
+.singleDealCardDesc{
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: -0.9px;
+    text-align: left;
+    color: #22252a;
+}
+
+.departureMenuActive{
+    border-bottom: 2px solid #4064bd;
+    cursor: pointer;
+
+    color: #4064bd;
+    padding-bottom: 6px;
+}
+.departureMenu{
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    padding-bottom: 6px;
+}
+.departureMenu:hover{
+    border-bottom: 2px solid #4064bd;
+    
+    color: #4064bd;
+    padding-bottom: 6px;
+}
+.landingCaptionDeals {
+    font-size: 35px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #22252a;
+}
+
+.font-15 {
+    font-size: 15px;
+}
+.font-13{
+    font-size: 13px!important;
+}
+
+.font-18{
+    font-size: 18px;
+}
+
+.profileLeftMenuItems {
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #22252a;
+    cursor: pointer;
+}
+.departureCardTitle{
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.0;
+    letter-spacing: normal;
+    text-align: left;
+    color: #212121;
+}
+.departureCardSubTitle{
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.0;
+    letter-spacing: normal;
+    text-align: left;
+    color: #212121;
+}
+
+
+.profileLeftMenuItemActive {
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4064bd;
+    cursor: pointer;
+
+
+
+}
+
+.profileLeftMenuItems:hover {
+    color: #4064bd;
+}
+
+.landing2Title {
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.06;
+    letter-spacing: normal;
+    text-align: center;
+    color: #22252a;
+}
+
+.landingCaption {
+    font-size: 45px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #22252a;
+}
+
+.sublandingCaption {
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #6c757d;
+}
+
+.titleOfStep {
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #22252a;
+}
+
+.descOfStep {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.35;
+    letter-spacing: normal;
+    text-align: center;
+    color: #22252a;
+}
+.darkRowWithImages{
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.45);
+    background-image: linear-gradient(92deg, #000000, #020202 27%, #1b1b1b 65%, #403e3e);
+}
+
+@media only screen and (max-width: 768px) {
+    .landingCaption {
+        font-size: 35px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.2;
+        letter-spacing: normal;
+        text-align: left;
+        color: #22252a;
+    }
+
+    .sublandingCaption {
+        font-size: 12px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #6c757d;
+    }
+}
+
+
+.pubBox{
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.20;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4064bd;
+}
+/* line with comment */
+.ligneWithComment {
+    border-top: 1px solid #b9b9b9;
+    ;
+    width: 100%;
+}
+
+/* buttons */
+
+.saveBtn {
+    border: 1px solid #4064bd;
+    border-radius: 25px;
+    color: #4064bd;
+    font-size: 13px;
+    padding: 10px 25px;
+    font-weight: 600;
+}
+
+.submitBtn {
+    border: 1px solid #4064bd;
+    border-radius: 25px;
+    color: #4064bd;
+    font-size: 13px;
+    padding: 10px 35px;
+    font-weight: 600;
+}
+
+.btnFilled {
+    padding: 14px 58px;
+    border-radius: 25px;
+    background-color: #4064bd;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.82;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    border: 1px solid #4064bd;
+}
+
+.btnFilled:hover {
+    background-color: #486ecc;
+    color: #ffffff;
+    border: 1px solid #486ecc;
+
+}
+
+.btnShadow {
+    -webkit-box-shadow: 0px 14px 18px -9px rgba(0, 0, 0, 0.66);
+    -moz-box-shadow: 0px 14px 18px -9px rgba(0, 0, 0, 0.66);
+    box-shadow: 0px 14px 18px -9px rgba(0, 0, 0, 0.66);
+}
+.searchBtnPosition{
+    position: absolute;
+    right: 15px;
+    top: 0px;
+}
+
+.searchBtn{
+    padding: 8.4px 37px;
+   
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: #4064bd;
+ 
+    border: 1px solid #4064bd;
+}
+
+.btnLogin {
+    padding: 11px 40px;
+    border-radius: 25px;
+    background-color: #4064bd;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.82;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    border: 1px solid #4064bd;
+}
+
+.btnSignUp {
+    padding: 11px 40px;
+    border: 1px solid #4064bd;
+    border-radius: 25px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.82;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4064bd;
+
+}
+
+.btnLogin:hover {
+    background-color: #486ecc;
+    color: #ffffff;
+    border: 1px solid #486ecc;
+
+}
+
+.signUpLandingFree {
+    padding: 11px 28px;
+    border-radius: 25px;
+    background-color: #4064bd;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.82;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    border: 1px solid #4064bd;
+}
+
+.signUpLandingFree:hover {
+    background-color: #486ecc;
+    color: #ffffff;
+    border: 1px solid #486ecc;
+}
+
+.btnLearnMore {
+    padding: 11px 28px;
+    border: 1px solid #4064bd;
+    border-radius: 25px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.82;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4064bd;
+
+}
+
+/*margin and padding*/
+.mt-Steps{
+    margin-top: 2.3rem !important;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.mt-60 {
+    margin-top: 60px
+}
+
+.mt-80 {
+    margin-top: 80px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+.pt-100 {
+    padding-top: 100px;
+}
+
+.mb-40{
+    margin-bottom: 40px!important;
+}
+
+.mt-160{
+    margin-top: 160px;
+}
+
+.pl-43{
+    padding-left: 43px!important;
+}
+
+.mt-33{
+    margin-top: 33px;
+}

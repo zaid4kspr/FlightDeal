@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>--- index ---</title>
+
+    <!--  CSS  -->
+    <link rel="stylesheet" href="./assets/css/bootstrap-material-design.css">
+    <link rel="stylesheet" href="./assets/css/mainStyle.css">
+
+    <!-- owl carousel css -->
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
+
+
+
+</head>
+
+<body>
+    <!-- Here goes your content! -->
+
+    <img class="backGroundImg2" src="./assets/img/bg-trans.png" alt="">
+
+    <div class="container  mb-3">
+        <div class="row ">
+            <div class="col-3 mt-3 offset-md-1 ">
+                <img class="mainlogo" src="./assets/img/wallyflatcolors3.png" alt="">
+            </div>
+            <!-- right dropdown -->
+            <div class="col   text-right  pt-3  my-auto">
+                <button class="btn     btnLogin btnShadow">
+                    LOGIN
+                </button>
+                <button class="btn mt-md-0 mt-2 mt-md-0 mx-md-3 btnSignUp">
+                    SIGN UP
+                </button>
+                <!-- hided in phone -->
+                <div class="btn-group d-md-inline-flex d-none">
+
+                    <button class="btn bmd-btn-icon dropdown-toggle" type="button" id="ex2" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        <img class="userProfile" src="./assets/img/ic_user.png" alt="">
+                    </button>
+
+                    <span class="userEmail my-auto ml-2 pointer" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false"> yourmail@gmail.com</span>
+                    <div class="dropdown-menu dropdown-menu-left userEmail dropDownBox" aria-labelledby="ex2">
+                        <img class="DropDownArrow" src="./assets/img/ic_arrow-up.png" alt="">
+                        <a class="dropdown-item" href="#">Account Settings</a>
+                        <a class="dropdown-item " href="#">Departure Preferences</a>
+                        <a class="dropdown-item" href="#">Support</a>
+                        <a class="dropdown-item" href="#">Contact</a>
+                        <a class="dropdown-item" href="#">Logout</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1 d-md">
+
+            </div>
+
+        </div>
+    </div>
+    <!-- warning/notification box -->
+    <!-- hide it simply by adding d-none class -->
+    <div class="row d-none  pubBox w-100 mx-0">
+        <div class="col">
+            Welcome to Premium! Let’s get your deal alert emails customized for the airports you fly from. Note: These
+            are not destination filters.
+        </div>
+    </div>
+
+
+    <div class="container minHeight mb-5">
+
+        <!-- 1st section Caption + image -->
+        <div class="row mt-60">
+            <!-- section Image to be show only in mobile -->
+            <div class="col d-md-none justify-content-center d-inline-flex">
+                <img class="landingImage" src="./assets/img/landingImage.png" alt="">
+            </div>
+
+            <!-- section Caption -->
+            <div class="col offset-md-1 my-auto">
+                <div class="row mt-md-0 mt-3">
+                    <div class="col landingCaption">
+                        The word’s best flight deals. Handpicked <br>
+                        by experts.
+                    </div>
+                </div>
+                <div class=" row mt-2">
+                    <div class="col sublandingCaption">
+                        Get email alerts when our experts find cheap International flights
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col">
+                        <button class="btn     signUpLandingFree btnShadow">
+                            SIGN UP FOR FREE
+                        </button>
+                        <button class="btn mt-md-0 mt-2 mt-md-0 mx-md-3 btnLearnMore">
+                            LEARN ABOUT PREMIUM
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- section Of image hided on phone / in phone i want to show the image first   -->
+            <div class="col d-none d-md-inline-flex">
+                <img class="landingImage" src="./assets/img/landingImage.png" alt="">
+            </div>
+        </div>
+        <!-- 2nd section Captions + images -->
+        <div class="row mt-80">
+            <div class="col text-center landing2Title">
+                How Wally’s Flight Deals works
+            </div>
+        </div>
+        <div class="row mt-1">
+            <div class="col sublandingCaption text-center">
+                Our Flight Experts search 24/7 to find international flights up to 90% off normal ticket prices. Join
+                today to get cheap flight alerts.
+            </div>
+        </div>
+
+        <!-- map and 3 cols -->
+        <div class="row mt-60">
+            <div class="col offset-md-1 ">
+                <!-- we are going to see this for desktop -->
+                <div class=" mapBg d-md-block d-none">
+                    <img class="stepsImagesBig ml-2 " src="./assets/img/illustration.png" alt="">
+                    <div class="row">
+                        <div class="col pr-md-5 pl-md-1">
+                            <div class=" titleOfStep mt-Steps">
+                                Select your favorite departure airports
+                            </div>
+                            <div class="descOfStep mt-3">
+                                Don’t worry about setting dates, destinations or other filters. We constantly monitor
+                                most international routes and dates for incredible deals.
+                            </div>
+                        </div>
+                        <div class=" col  px-md-5">
+                            <div class=" titleOfStep mt-Steps">
+                                Watch your email for deal alerts
+                            </div>
+                            <div class="descOfStep mt-3">
+                                We’ll email you when there’s an awesome flight deal taking off from one of your
+                                preferred departure airports.
+                            </div>
+                        </div>
+                        <div class="col px-md-5">
+                            <div class=" titleOfStep mt-Steps">
+                                Follow our booking instructions
+                            </div>
+                            <div class="descOfStep mt-3">
+                                We’ll let you know everything you need to get the deal, including total cost, how to
+                                book, and how long we think the deal will last.
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" row " style="    margin-top: 5rem !important;">
+                        <div class="col text-center">
+                            <button class="btn     signUpLandingFree btnShadow">
+                                SIGN UP FOR FREE
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- we are going to see this for mobile view  -->
+                <div class="row d-md-none d-flex ">
+                    <div class="col-12  text-center">
+                        <img class="stepsImages " src="./assets/img/step_1.png" alt="">
+
+                        <div class=" titleOfStep mt-Steps">
+
+                            Select your favorite departure airports
+                        </div>
+                        <div class="descOfStep mt-3">
+                            Don’t worry about setting dates, destinations or other filters. We constantly monitor
+                            most international routes and dates for incredible deals.
+                        </div>
+                    </div>
+                    <div class="col-12 mt-60  text-center">
+                        <img class="stepsImages " src="./assets/img/step_2.png" alt="">
+                        <div class=" titleOfStep mt-Steps">
+                            Watch your email for deal alerts
+                        </div>
+                        <div class="descOfStep mt-3">
+                            We’ll email you when there’s an awesome flight deal taking off from one of your
+                            preferred departure airports.
+                        </div>
+                    </div>
+                    <div class="col-12   mt-60  text-center">
+                        <img class="stepsImages " src="./assets/img/step_3.png" alt="">
+                        <div class=" titleOfStep mt-Steps">
+                            Follow our booking instructions
+                        </div>
+                        <div class="descOfStep mt-3">
+                            We’ll let you know everything you need to get the deal, including total cost, how to
+                            book, and how long we think the deal will last.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-1">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- dark Row with Images -->
+
+
+    <div class="owl-carousel  darkRowWithImages">
+        <img class="carouselImages" src="./assets/img/washington_post.png" alt="">
+        <img class="carouselImages" src="./assets/img/new_york_times.png" alt="">
+        <img class="carouselImages" src="./assets/img/5_stars.png" alt="">
+        <img class="carouselImages" src="./assets/img/trayeler.png" alt="">
+        <img class="carouselImages" src="./assets/img/business_insider.png" alt="">
+    </div>
+
+    <!-- 3rd section Captions + images -->
+    <div class="row w-100 mt-100">
+        <div class="col text-center landing2Title">
+            Handpicked by human flight experts
+        </div>
+    </div>
+    <div class="row w-100 mt-1">
+        <div class="col sublandingCaption text-center">
+            Every deal we send has passed a regorous quality evaluation so you can book with the confidence that you’re
+            getting an incredible deal.
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row mt-60">
+            <div class="col offset-md-1 ">
+                <div class="row">
+                    <div class="col-md-4 col-12  text-center">
+                        <img class="thirdSectionLandingImage" src="./assets/img/ic_receipt.png" alt="">
+                        <div class="thirdSectionTitle">
+                            Total Coast
+                        </div>
+                        <div class="thirdSectionDesc">
+                            Many airlines use add-on fees to make their tickets seem cheap. We’ll only send you deals we
+                            deem exceptional after factoring in taxes, bag fees and any add-ons.
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12  text-center">
+                        <img class="thirdSectionLandingImage" src="./assets/img/ic_Itinerary.png" alt="">
+                        <div class="thirdSectionTitle">
+                            Itinerary
+                        </div>
+                        <div class="thirdSectionDesc">
+                            A cheap flight isn’t a good deal if you spend your entire vacation at the airport. We won’t
+                            send you flights with awful itineraries.
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-12  text-center">
+                        <img class="thirdSectionLandingImage" src="./assets/img/ic_best.png" alt="">
+                        <div class="thirdSectionTitle">
+                            Airline Reputation
+                        </div>
+                        <div class="thirdSectionDesc">
+                            Not all airlines are created equal. We avoid the bad airlines and highlight deals on
+                            top-rated airlines so you travel in comfort.
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-md-1">
+
+            </div>
+        </div>
+    </div>
+    <!-- 4th section Captions + images -->
+    <div class="backgroundOf4thSection">
+        <div class="row w-100 pt-100">
+            <div class="col text-center landing2Title">
+                Why Go Premium?
+            </div>
+        </div>
+        <div class="container">
+            <div class="row mt-60 mb-5">
+                <div class="col offset-md-1 ">
+                    <div class="row">
+                        <div class="col-md-3 col-12  text-center">
+                            <img class="fourthSectionLandingImage" src="./assets/img/ic_3x.png" alt="">
+                            <div class="thirdSectionTitle mb-40">
+                                Get 3x the deals
+                            </div>
+                            <div class="thirdSectionDesc">
+                                Free members only get 1 out of every 3 deals we send.
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-12  text-center">
+                            <img class="fourthSectionLandingImage" src="./assets/img/ic_attention.png" alt="">
+                            <div class="thirdSectionTitle mb-40">
+                                Get every mistake
+                            </div>
+                            <div class="thirdSectionDesc">
+                                Never miss the holy grill of cheap flight: fares mistakenly sold for 90% off.
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-12  text-center">
+                            <img class="fourthSectionLandingImage" src="./assets/img/ic_home.png" alt="">
+                            <div class="thirdSectionTitle">
+                                Set your Home and destination </div>
+                            <div class="thirdSectionDesc">
+                                Filter out the noise and only get deal alerts departing from your favorite airports.
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-12  text-center">
+                            <img class="fourthSectionLandingImage" src="./assets/img/ic_fast.png" alt="">
+                            <div class="thirdSectionTitle">
+                                Find out before everyone else</div>
+                            <div class="thirdSectionDesc">
+                                The best deals disappear quickly. Premium subscribers get alerted 30+ minutes early.
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-md-1">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="footerBg">
+        <div class="container ">
+            <div class="row  pt-3 text-left text-xs-center text-sm-left text-md-left">
+                <div class="col-12  col-md-3  offset-md-1">
+                    <h5 class="footerItemTitle">About</h5>
+                    <ul class="list-unstyled quick-links footerSubItems">
+                        <li><a>About Us</a></li>
+                        <li><a>Careers (We're hiring!)</a></li>
+                        <li><a>Press</a></li>
+                        <li><a>Premium</a></li>
+                        <li><a>Swag</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-12   ml-md-5   col-md-4 ">
+                    <h5 class="footerItemTitle">Support</h5>
+                    <ul class="list-unstyled quick-links footerSubItems">
+                        <li><a>Help Center</a></li>
+                        <li><a>Refund Policy</a></li>
+                        <li><a>Contact</a></li>
+
+
+                    </ul>
+                </div>
+                <div class="col-12     col-md-3 ">
+                    <h5 class="footerItemTitle">Social</h5>
+                    <div class="row mb-md-0 mb-2">
+                        <div class="col">
+                            <a><img src="./assets/img/ic_fb.PNG" alt=""></a>
+                            <a><img src="./assets/img/ic_twitter.PNG" alt=""></a>
+                            <a><img src="./assets/img/ic_insta.PNG" alt=""></a>
+                            <a><img src="./assets/img/ic_linked.PNG" alt=""></a>
+                            <a><img class="mt-1" src="./assets/img/ic_youtube.PNG" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+        <div class="row copyRightFooter mx-0 py-2 w-100">
+            <div class="col text-center">
+                Copyright &copy; 2019 Wally. All rights reserved
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"
+        integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/bootstrap-material-design.js"></script>
+    <script src="./assets/js/owl.carousel.js"></script>
+
+    <script>$(document).ready(function () { $('body').bootstrapMaterialDesign(); });</script>
+    <script>
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            items: 5,
+            loop: true,
+            margin: 110,
+
+            autoplay: true,
+            autoplayTimeout: 1900,
+
+        });
+    </script>
+    <script>
+        function showPw() {
+            var x = document.getElementById("inputPassword");
+            if (x.type === "password") {
+                x.type = "text";
+            } else {
+                x.type = "password";
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>--- departure_settings ---</title>
+
+    <!--  CSS  -->
+    <link rel="stylesheet" href="./assets/css/bootstrap-material-design.css">
+    <link rel="stylesheet" href="./assets/css/mainStyle.css">
+
+
+
+</head>
+
+<body>
+    <!-- Here goes your content! -->
+
+    <img class="backGroundImg2" src="./assets/img/bg-trans.png" alt="">
+
+    <div class="container  mb-3">
+        <div class="row ">
+            <div class="col-3 mt-3 offset-md-1 ">
+                <img class="mainlogo" src="./assets/img/wallyflatcolors3.png" alt="">
+            </div>
+            <!-- right dropdown -->
+            <div class="col text-right offset-md-1 my-auto">
+                <div class="btn-group">
+
+                    <button class="btn bmd-btn-icon dropdown-toggle" type="button" id="ex2" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        <img class="userProfile" src="./assets/img/ic_user.png" alt="">
+                    </button>
+
+                    <span class="userEmail my-auto ml-2 pointer" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false"> yourmail@gmail.com</span>
+                    <div class="dropdown-menu dropdown-menu-left userEmail dropDownBox" aria-labelledby="ex2">
+                        <img class="DropDownArrow" src="./assets/img/ic_arrow-up.png" alt="">
+                        <a class="dropdown-item" href="#">Account Settings</a>
+                        <a class="dropdown-item " href="#">Departure Preferences</a>
+                        <a class="dropdown-item" href="#">Support</a>
+                        <a class="dropdown-item" href="#">Contact</a>
+                        <a class="dropdown-item" href="#">Logout</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1 d-md">
+
+            </div>
+        </div>
+    </div>
+    <!-- warning/notification box -->
+    <!-- hide it simply by adding d-none class -->
+    <div class="row d-none  pubBox w-100 mx-0">
+        <div class="col">
+            Welcome to Premium! Let’s get your deal alert emails customized for the airports you fly from. Note: These
+            are not destination filters.
+        </div>
+    </div>
+
+
+    <div class="container minHeight mb-5">
+
+        <!--  Page title -->
+        <div class="row mt-5">
+            <div class="col offset-md-1">
+                <span class=" departureMenuActive   text-left">
+                    Deals
+                </span>
+                <span class="   departureMenu   text-left ml-4">
+                    Guides
+                </span>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <!-- Left Menu-->
+            <div class="col-md-3 col-12 offset-md-1 mt-md-5">
+                <div class="row mt-4">
+                    <div class="col profileLeftMenuItems">
+                        Profile
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col  profileLeftMenuItemActive">
+                        Departure Settings
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col profileLeftMenuItems">
+                        Notification Settings
+                    </div>
+                </div>
+
+            </div>
+            <div class="col">
+                <!-- form-->
+                <div class="row ">
+                    <div class="col-md-10 col-12   ">
+                        <!-- 1st card TRAVEL SETTINGS -->
+                        <div class="card departureSettingsCard mt-4">
+                            <div class="card-body pl-md-5 mt-1">
+                                <div class="row">
+                                    <div class="col departureCardTitle">
+                                        TRAVEL SETTINGS
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col departureCardSubTitle">
+                                        You don’t have any travel settings just yet…
+                                    </div>
+                                </div>
+
+                                <div class="row my-4">
+                                    <div class="col">
+                                        <button class="btn     btnLogin btnShadow">
+                                            SET UP
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 2nd card YOUR SELECTED DEPARTURE SETTINGS -->
+                        <div class="card departureSettingsCard mt-30">
+                            <div class="card-body pl-md-5 mt-1">
+                                <div class="row">
+                                    <div class="col departureCardTitle">
+                                        YOUR SELECTED DEPARTURE SETTINGS
+                                    </div>
+                                    <div class="col-2 my-auto font-13 blue pointer">
+                                        edit
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col departureCardSubTitle">
+                                        <img height="25" width="25" src="./assets/img/USA.png" alt="">
+                                        <span class="ml-1">United States (USA)</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <form class="w-100 ">
+                                <!-- airports row with checkBoxes -->
+                                <div class="row mt-4  selectedRowDepartureSetting mx-0">
+
+                                    <div class="col-md-3 col-6">
+
+                                        <div class="checkbox">
+                                            <label class="font-13 airportNameLabelColor">
+                                                <input type="checkbox"> Airport Name
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3 col-6">
+
+                                        <div class="checkbox">
+                                            <label class="font-13 airportNameLabelColor">
+                                                <input type="checkbox"> Airport Name
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-6">
+
+                                        <div class="checkbox">
+                                            <label class="font-13 airportNameLabelColor">
+                                                <input type="checkbox"> Airport Name
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-6">
+
+                                        <div class="checkbox">
+                                            <label class="font-13 airportNameLabelColor">
+                                                <input type="checkbox"> Airport Name
+                                            </label>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <!-- airports row with checkBoxes -->
+                                <div class="row  unSelectedRowDepartureSetting mx-0">
+
+                                    <div class="col-md-3 col-6">
+
+                                        <div class="checkbox">
+                                            <label class="font-13 airportNameLabelColor">
+                                                <input type="checkbox"> Airport Name
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3 col-6">
+
+                                        <div class="checkbox">
+                                            <label class="font-13 airportNameLabelColor">
+                                                <input type="checkbox"> Airport Name
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-6">
+
+                                        <div class="checkbox">
+                                            <label class="font-13 airportNameLabelColor">
+                                                <input type="checkbox"> Airport Name
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-6">
+
+                                        <div class="checkbox">
+                                            <label class="font-13 airportNameLabelColor">
+                                                <input type="checkbox"> Airport Name
+                                            </label>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </form>
+                        </div>
+                        <!-- 3rd card YOUR SELECTED DEPARTURE SETTINGS -->
+                        <div class="card departureSettingsCard mt-30">
+                            <div class="card-body pl-md-5 mt-1">
+                                <div class="row">
+                                    <div class="col departureCardTitle">
+                                        YOUR SELECTED DEPARTURE SETTINGS
+                                    </div>
+                                    <div class="col-2 my-auto font-13 blue pointer">
+                                        edit
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col departureCardSubTitle">
+                                        <img height="25" width="25" src="./assets/img/USA.png" alt="">
+                                        <span class="ml-1">United States (USA)</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <form class="w-100 ">
+                                <!-- airports row with checkBoxes -->
+                                <div class="row mt-4  selectedRowDepartureSetting mx-0">
+
+                                    <div class="col-md-3 col-6">
+
+                                        <div class="checkbox">
+                                            <label class="font-13 airportNameLabelColor">
+                                                <input type="checkbox"> Airport Name
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3 col-6">
+
+                                        <div class="checkbox">
+                                            <label class="font-13 airportNameLabelColor">
+                                                <input type="checkbox"> Airport Name
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-6">
+
+                                        <div class="checkbox">
+                                            <label class="font-13 airportNameLabelColor">
+                                                <input type="checkbox"> Airport Name
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-6">
+
+                                        <div class="checkbox">
+                                            <label class="font-13 airportNameLabelColor">
+                                                <input type="checkbox"> Airport Name
+                                            </label>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <!-- airports row with checkBoxes -->
+                                <div class="row  unSelectedRowDepartureSetting mx-0">
+
+                                    <div class="col-md-3 col-6">
+
+                                        <div class="checkbox">
+                                            <label class="font-13 airportNameLabelColor">
+                                                <input type="checkbox"> Airport Name
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3 col-6">
+
+                                        <div class="checkbox">
+                                            <label class="font-13 airportNameLabelColor">
+                                                <input type="checkbox"> Airport Name
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-6">
+
+                                        <div class="checkbox">
+                                            <label class="font-13 airportNameLabelColor">
+                                                <input type="checkbox"> Airport Name
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-6">
+
+                                        <div class="checkbox">
+                                            <label class="font-13 airportNameLabelColor">
+                                                <input type="checkbox"> Airport Name
+                                            </label>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </form>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    <!-- footer -->
+    <footer class="footerBg">
+        <div class="container ">
+            <div class="row mt-4 pt-3 text-left text-xs-center text-sm-left text-md-left">
+                <div class="col-12  col-md-3  offset-md-1">
+                    <h5 class="footerItemTitle">About</h5>
+                    <ul class="list-unstyled quick-links footerSubItems">
+                        <li><a>About Us</a></li>
+                        <li><a>Careers (We're hiring!)</a></li>
+                        <li><a>Press</a></li>
+                        <li><a>Premium</a></li>
+                        <li><a>Swag</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-12   ml-md-5   col-md-4 ">
+                    <h5 class="footerItemTitle">Support</h5>
+                    <ul class="list-unstyled quick-links footerSubItems">
+                        <li><a>Help Center</a></li>
+                        <li><a>Refund Policy</a></li>
+                        <li><a>Contact</a></li>
+
+
+                    </ul>
+                </div>
+                <div class="col-12     col-md-3 ">
+                    <h5 class="footerItemTitle">Social</h5>
+                    <div class="row mb-md-0 mb-2">
+                        <div class="col">
+                            <a><img src="./assets/img/ic_fb.PNG" alt=""></a>
+                            <a><img src="./assets/img/ic_twitter.PNG" alt=""></a>
+                            <a><img src="./assets/img/ic_insta.PNG" alt=""></a>
+                            <a><img src="./assets/img/ic_linked.PNG" alt=""></a>
+                            <a><img class="mt-1" src="./assets/img/ic_youtube.PNG" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+        <div class="row copyRightFooter mx-0 py-2 w-100">
+            <div class="col text-center">
+                Copyright &copy; 2019 Wally. All rights reserved
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"
+        integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/bootstrap-material-design.js"></script>
+
+    <script>$(document).ready(function () { $('body').bootstrapMaterialDesign(); });</script>
+    <script>
+
+    </script>
+</body>
+
+</html>
